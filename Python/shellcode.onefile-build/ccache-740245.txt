@@ -1,0 +1,94 @@
+[2023-11-25T02:33:22.228390 740255] === CCACHE 4.7.4 STARTED =========================================
+[2023-11-25T02:33:22.228495 740255] Configuration file: /home/user/.cache/Nuitka/ccache/ccache.conf
+[2023-11-25T02:33:22.228527 740255] System configuration file: /etc/ccache.conf
+[2023-11-25T02:33:22.228527 740255] Config: (default) absolute_paths_in_stderr = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) base_dir = 
+[2023-11-25T02:33:22.228527 740255] Config: (environment) cache_dir = /home/user/.cache/Nuitka/ccache
+[2023-11-25T02:33:22.228527 740255] Config: (default) compiler = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) compiler_check = mtime
+[2023-11-25T02:33:22.228527 740255] Config: (default) compiler_type = auto
+[2023-11-25T02:33:22.228527 740255] Config: (default) compression = true
+[2023-11-25T02:33:22.228527 740255] Config: (default) compression_level = 0
+[2023-11-25T02:33:22.228527 740255] Config: (default) cpp_extension = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) debug = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) debug_dir = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) depend_mode = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) direct_mode = true
+[2023-11-25T02:33:22.228527 740255] Config: (default) disable = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) extra_files_to_hash = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) file_clone = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) hard_link = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) hash_dir = true
+[2023-11-25T02:33:22.228527 740255] Config: (default) ignore_headers_in_manifest = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) ignore_options = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) inode_cache = true
+[2023-11-25T02:33:22.228527 740255] Config: (default) keep_comments_cpp = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) limit_multiple = 0.8
+[2023-11-25T02:33:22.228527 740255] Config: (environment) log_file = /home/user/sRDI/Python/shellcode.onefile-build/ccache-740245.txt
+[2023-11-25T02:33:22.228527 740255] Config: (default) max_files = 0
+[2023-11-25T02:33:22.228527 740255] Config: (default) max_size = 5.0G
+[2023-11-25T02:33:22.228527 740255] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-11-25T02:33:22.228527 740255] Config: (default) namespace = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) path = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) pch_external_checksum = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) prefix_command = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) prefix_command_cpp = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) read_only = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) read_only_direct = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) recache = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) remote_only = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) remote_storage = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) reshare = false
+[2023-11-25T02:33:22.228527 740255] Config: (default) run_second_cpp = true
+[2023-11-25T02:33:22.228527 740255] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-11-25T02:33:22.228527 740255] Config: (default) stats = true
+[2023-11-25T02:33:22.228527 740255] Config: (default) stats_log = 
+[2023-11-25T02:33:22.228527 740255] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-25T02:33:22.228527 740255] Config: (default) umask = 
+[2023-11-25T02:33:22.228680 740255] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/OnefileBootstrap.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -static -pie -s -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd static_src/OnefileBootstrap.c
+[2023-11-25T02:33:22.228746 740255] Hostname: host
+[2023-11-25T02:33:22.228783 740255] Working directory: /home/user/sRDI/Python/shellcode.onefile-build
+[2023-11-25T02:33:22.228804 740255] Compiler type: gcc
+[2023-11-25T02:33:22.229103 740255] Source file: static_src/OnefileBootstrap.c
+[2023-11-25T02:33:22.229143 740255] Object file: static_src/OnefileBootstrap.o
+[2023-11-25T02:33:22.229216 740255] Trying direct lookup
+[2023-11-25T02:33:22.229395 740255] Manifest key: 02b8v2c558sitdb37tqteqf9j9bmd279g
+[2023-11-25T02:33:22.229518 740255] No 02b8v2c558sitdb37tqteqf9j9bmd279g in local storage
+[2023-11-25T02:33:22.229648 740255] Running preprocessor
+[2023-11-25T02:33:22.229758 740255] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -static -s -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd -E -o /run/user/1000/ccache-tmp/cpp_stdout.tmp.tNe6a8.i static_src/OnefileBootstrap.c
+[2023-11-25T02:33:22.440334 740255] Too new ctime or mtime of onefile_definitions.h, not considering for inode cache
+[2023-11-25T02:33:22.440474 740255] Too new ctime or mtime of onefile_definitions.h, not considering for inode cache
+[2023-11-25T02:33:22.474690 740255] Got result key from preprocessor
+[2023-11-25T02:33:22.474774 740255] Result key: 4b0ct7httjk5gco0oh4p4l0qnkk4523em
+[2023-11-25T02:33:22.474946 740255] No 4b0ct7httjk5gco0oh4p4l0qnkk4523em in local storage
+[2023-11-25T02:33:22.474985 740255] Running real compiler
+[2023-11-25T02:33:22.475141 740255] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -static -s -pie -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd -c -fdiagnostics-color -o static_src/OnefileBootstrap.o static_src/OnefileBootstrap.c
+[2023-11-25T02:33:30.313320 740255] Using default compression level 1
+[2023-11-25T02:33:30.313464 740255] Storing embedded entry #0 .o (188824 bytes) from static_src/OnefileBootstrap.o
+[2023-11-25T02:33:30.317247 740255] Stored 4b0ct7httjk5gco0oh4p4l0qnkk4523em in local storage (/home/user/.cache/Nuitka/ccache/4/b/0ct7httjk5gco0oh4p4l0qnkk4523emR)
+[2023-11-25T02:33:30.320518 740255] Added result key to manifest 02b8v2c558sitdb37tqteqf9j9bmd279g
+[2023-11-25T02:33:30.320562 740255] Using default compression level 1
+[2023-11-25T02:33:30.321478 740255] Stored 02b8v2c558sitdb37tqteqf9j9bmd279g in local storage (/home/user/.cache/Nuitka/ccache/0/2/b8v2c558sitdb37tqteqf9j9bmd279gM)
+[2023-11-25T02:33:30.321541 740255] Result: cache_miss
+[2023-11-25T02:33:30.321572 740255] Result: direct_cache_miss
+[2023-11-25T02:33:30.321596 740255] Result: local_storage_miss
+[2023-11-25T02:33:30.321618 740255] Result: local_storage_read_miss
+[2023-11-25T02:33:30.321648 740255] Result: local_storage_read_miss
+[2023-11-25T02:33:30.321667 740255] Result: local_storage_write
+[2023-11-25T02:33:30.321693 740255] Result: local_storage_write
+[2023-11-25T02:33:30.321714 740255] Result: preprocessed_cache_miss
+[2023-11-25T02:33:30.321763 740255] Acquiring /home/user/.cache/Nuitka/ccache/0/stats.lock
+[2023-11-25T02:33:30.321971 740255] Acquired /home/user/.cache/Nuitka/ccache/0/stats.lock
+[2023-11-25T02:33:30.322632 740255] Releasing /home/user/.cache/Nuitka/ccache/0/stats.lock
+[2023-11-25T02:33:30.322745 740255] Unlink /home/user/.cache/Nuitka/ccache/0/stats.lock
+[2023-11-25T02:33:30.322772 740255] Released /home/user/.cache/Nuitka/ccache/0/stats.lock
+[2023-11-25T02:33:30.322831 740255] Acquiring /home/user/.cache/Nuitka/ccache/4/stats.lock
+[2023-11-25T02:33:30.323008 740255] Acquired /home/user/.cache/Nuitka/ccache/4/stats.lock
+[2023-11-25T02:33:30.323501 740255] Releasing /home/user/.cache/Nuitka/ccache/4/stats.lock
+[2023-11-25T02:33:30.323609 740255] Unlink /home/user/.cache/Nuitka/ccache/4/stats.lock
+[2023-11-25T02:33:30.323636 740255] Released /home/user/.cache/Nuitka/ccache/4/stats.lock
+[2023-11-25T02:33:30.323707 740255] Unlink /run/user/1000/ccache-tmp/stderr.tmp.k51pEG.tmp
+[2023-11-25T02:33:30.323746 740255] Unlink /run/user/1000/ccache-tmp/stdout.tmp.Iiifpk.tmp
+[2023-11-25T02:33:30.323792 740255] Unlink /run/user/1000/ccache-tmp/stderr.tmp.foZpun.tmp
+[2023-11-25T02:33:30.324168 740255] Unlink /run/user/1000/ccache-tmp/cpp_stdout.tmp.tNe6a8.i
+[2023-11-25T02:33:30.324205 740255] Accumulated stats for inode cache: hits=0, misses=0, errors=0

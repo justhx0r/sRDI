@@ -1,0 +1,65 @@
+[2023-11-25T02:27:56.269543 734686] === CCACHE 4.7.4 STARTED =========================================
+[2023-11-25T02:27:56.269640 734686] Configuration file: /home/user/.cache/Nuitka/ccache/ccache.conf
+[2023-11-25T02:27:56.269662 734686] System configuration file: /etc/ccache.conf
+[2023-11-25T02:27:56.269662 734686] Config: (default) absolute_paths_in_stderr = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) base_dir = 
+[2023-11-25T02:27:56.269662 734686] Config: (environment) cache_dir = /home/user/.cache/Nuitka/ccache
+[2023-11-25T02:27:56.269662 734686] Config: (default) compiler = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) compiler_check = mtime
+[2023-11-25T02:27:56.269662 734686] Config: (default) compiler_type = auto
+[2023-11-25T02:27:56.269662 734686] Config: (default) compression = true
+[2023-11-25T02:27:56.269662 734686] Config: (default) compression_level = 0
+[2023-11-25T02:27:56.269662 734686] Config: (default) cpp_extension = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) debug = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) debug_dir = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) depend_mode = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) direct_mode = true
+[2023-11-25T02:27:56.269662 734686] Config: (default) disable = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) extra_files_to_hash = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) file_clone = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) hard_link = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) hash_dir = true
+[2023-11-25T02:27:56.269662 734686] Config: (default) ignore_headers_in_manifest = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) ignore_options = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) inode_cache = true
+[2023-11-25T02:27:56.269662 734686] Config: (default) keep_comments_cpp = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) limit_multiple = 0.8
+[2023-11-25T02:27:56.269662 734686] Config: (environment) log_file = /home/user/sRDI/Python/ConvertToShellcode.onefile-build/ccache-734667.txt
+[2023-11-25T02:27:56.269662 734686] Config: (default) max_files = 0
+[2023-11-25T02:27:56.269662 734686] Config: (default) max_size = 5.0G
+[2023-11-25T02:27:56.269662 734686] Config: (default) msvc_dep_prefix = Note: including file:
+[2023-11-25T02:27:56.269662 734686] Config: (default) namespace = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) path = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) pch_external_checksum = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) prefix_command = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) prefix_command_cpp = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) read_only = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) read_only_direct = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) recache = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) remote_only = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) remote_storage = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) reshare = false
+[2023-11-25T02:27:56.269662 734686] Config: (default) run_second_cpp = true
+[2023-11-25T02:27:56.269662 734686] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2023-11-25T02:27:56.269662 734686] Config: (default) stats = true
+[2023-11-25T02:27:56.269662 734686] Config: (default) stats_log = 
+[2023-11-25T02:27:56.269662 734686] Config: (default) temporary_dir = /run/user/1000/ccache-tmp
+[2023-11-25T02:27:56.269662 734686] Config: (default) umask = 
+[2023-11-25T02:27:56.269808 734686] Command line: /usr/bin/ccache /usr/bin/gcc -o static_src/OnefileBootstrap.o -c -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd static_src/OnefileBootstrap.c
+[2023-11-25T02:27:56.269876 734686] Hostname: host
+[2023-11-25T02:27:56.269900 734686] Working directory: /home/user/sRDI/Python/ConvertToShellcode.onefile-build
+[2023-11-25T02:27:56.269933 734686] Compiler type: gcc
+[2023-11-25T02:27:56.271414 734686] Source file: static_src/OnefileBootstrap.c
+[2023-11-25T02:27:56.271467 734686] Object file: static_src/OnefileBootstrap.o
+[2023-11-25T02:27:56.271531 734686] Trying direct lookup
+[2023-11-25T02:27:56.272038 734686] Manifest key: e5693549pn9pjkfsajjh74f9mlfkbv15i
+[2023-11-25T02:27:56.272192 734686] No e5693549pn9pjkfsajjh74f9mlfkbv15i in local storage
+[2023-11-25T02:27:56.272330 734686] Running preprocessor
+[2023-11-25T02:27:56.272469 734686] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd -E -o /run/user/1000/ccache-tmp/cpp_stdout.tmp.fUePfn.i static_src/OnefileBootstrap.c
+[2023-11-25T02:27:56.521841 734686] Too new ctime or mtime of onefile_definitions.h, not considering for inode cache
+[2023-11-25T02:27:56.522033 734686] Too new ctime or mtime of onefile_definitions.h, not considering for inode cache
+[2023-11-25T02:27:56.562234 734686] Got result key from preprocessor
+[2023-11-25T02:27:56.562302 734686] Result key: 86c9kc9akla6cm453mp6uhlqqnqror78a
+[2023-11-25T02:27:56.562450 734686] No 86c9kc9akla6cm453mp6uhlqqnqror78a in local storage
+[2023-11-25T02:27:56.562480 734686] Running real compiler
+[2023-11-25T02:27:56.562632 734686] Executing /usr/bin/gcc -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D__NUITKA_NO_ASSERT__ -D_NUITKA_ONEFILE_MODE -I. -I/usr/local/lib/python3.11/dist-packages/nuitka/build/include -I/usr/local/lib/python3.11/dist-packages/nuitka/build/static_src -I/usr/local/lib/python3.11/dist-packages/nuitka/build/inline_copy/zstd -c -fdiagnostics-color -o static_src/OnefileBootstrap.o static_src/OnefileBootstrap.c
